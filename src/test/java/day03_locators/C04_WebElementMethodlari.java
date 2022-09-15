@@ -35,9 +35,7 @@ public class C04_WebElementMethodlari {
             System.out.println("TagName testi FAILED");
         }
 
-
-
-        // 3- arama kutusunun name attribute'nun degerinin field-keywords oldugunu test edin
+ // 3- arama kutusunun name attribute'nun degerinin field-keywords oldugunu test edin
 
         String expectedNameDegeri= "field-keywords";
         String actualNameDegeri= aramaKutusu.getAttribute("name");
@@ -54,16 +52,6 @@ public class C04_WebElementMethodlari {
 
         driver.close();
 
-
-
-        /*
-        <input type="text" id="twotabsearchtextbox" value="nutella"
-        name="field-keywords" autocomplete="off" placeholder=""
-        class="nav-input nav-progressive-attribute" dir="auto" tabindex="0" aria-label="Search">
-        webElementIsmi.getTagName() --> daha once locate ettigimiz bir webelemtin tagname'ni dondurur
-        webElementIsmi.getAttribute(attributeIsmi) --> daha once locate ettigimiz bir webelementini
-                                                      istedigim attribute'unun degerini dondurur
-         */
     }
 
 }

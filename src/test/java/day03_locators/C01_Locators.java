@@ -22,7 +22,7 @@ public class C01_Locators {
         // biz de o webelementini kullanmak icin bir objeye assign ederiz
         // WebElement aramaKutusu= driver.findElement(By.id("twotabsearchtextbox"));
         //aramaKutusu.sendKeys("Nutella");
-        //elementi kopyalamak için incele>sağ tuş>copy>element
+
         /* WebElement aramaKutusu= driver.findElement(By.className("nav-search-field "));
            Bu locator calismadi
            Locator alirken gozumuzden kacan detaylar olabilir

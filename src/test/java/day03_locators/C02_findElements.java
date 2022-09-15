@@ -10,7 +10,7 @@ import java.util.List;
 
 public class C02_findElements {
     public static void main(String[] args) {
-        // amazon sayfasinda katane link bulundugunu yazdiralim
+        // amazon sayfasinda kaç tane link bulundugunu yazdiralim
 
         System.setProperty("webdriver.chrome.driver","src/resources/drivers/chromedriver.exe");
         WebDriver driver = new ChromeDriver();
